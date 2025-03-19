@@ -1,0 +1,155 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("crop.jpeg");
+    background-size: cover;
+    background-position: center;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(0, 128, 0, 0.8); /* Green background */
+    color: white;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Form Container */
+.form-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 50px auto;
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745; /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #218838; /* Darker green */
+}
+
+/* Recommendations Section */
+#recommendations {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.crop-recommendations {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+/* Crop Card Container */
+.crop-card {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 250px; /* Set a fixed width for the card */
+    text-align: center; /* Center the content */
+    margin: 10px; /* Add some spacing between cards */
+}
+
+/* Crop Card Images */
+.crop-card img {
+    width: 200px; /* Set a fixed width */
+    height: 200px; /* Set a fixed height */
+    object-fit: cover; /* Maintain aspect ratio while filling the container */
+    border-radius: 10px; /* Optional: Add rounded corners */
+}
+/* Hover Effect */
+.crop-card:hover {
+    transform: scale(1.05); /* Slightly enlarge the card on hover */
+    transition: transform 0.3s ease; /* Smooth transition */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Add a stronger shadow on hover */
+}
+
+.crop-card p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Feedback Section */
+#feedback {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#feedback-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+#feedback-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745; /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#feedback-form button:hover {
+    background-color: #218838; /* Darker green */
+}
