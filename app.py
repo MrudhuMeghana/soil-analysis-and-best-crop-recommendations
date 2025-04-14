@@ -5,8 +5,8 @@ import numpy as np
 app = Flask(__name__)
 
 # Load the model and scaler
-model = joblib.load("crop_recommendation_model.pkl")
-scaler = joblib.load("scaler.pkl")
+model = joblib.load("models/crop_recommendation_model.pkl")
+scaler = joblib.load("models/scaler.pkl")
 
 # Crop mapping dictionary
 crop_mapping = {
